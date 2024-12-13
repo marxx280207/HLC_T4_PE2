@@ -1,0 +1,65 @@
+*{font-family: "Nunito", sans-serif;}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+.menu button {
+    width: 80%;
+    background-color: #F8F8FF;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.menu button:hover {
+    background-color: #E2E5E7;
+}
+.chat{
+    box-shadow: inset 0 0 10px grey;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 5px;
+    border-radius: 5px;
+    
+}
+.chat button{
+    display: inline-block;
+    width: 40%;
+    background-color: #F9DC6A;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s; 
+    justify-content: center;
+    align-items: center;
+}
+.chat button:hover {
+    background-color: #eeff00;
+}
